@@ -1,0 +1,12 @@
+body{
+  background-color: #cccccc;
+}
+
+#game{
+	text-align: center;
+}
+
+#board{
+  width: 5em;
+  float: left;
+}

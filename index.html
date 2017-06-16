@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>My Firsrt Incremental Game</title>
+
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+
+	<body style="padding: 5px; margin: 5px;" onload="init()">
+		<div id="board">
+			<textarea id="log" rows="20" ></textarea>
+		</div>
+
+		<div id="game">
+			Number:<span id="collect"></span>
+			<br />
+			<br /> Click Number:<span id="click_num"></span>/click
+			<br />
+			<button onclick="manualClick(click_leve)">Click</button>
+			<br /> Coast:
+			<span id="coast"></span>
+			<br />
+			<button onclick="hireWorker()">Worker</button>
+			<br /> Coast:
+			<span id="up_coast"></span>
+			<br /> Leve:
+			<span id="click_leve"></span>
+			<br />
+			<button onclick="leve_up()">Click Leve Up</button>
+			<br />
+		</div>
+	</body>
+
+</html>
